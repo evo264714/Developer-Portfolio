@@ -86,10 +86,12 @@ main{
 }    
 .section-title{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 113px;
     color: #181818;
     font-weight: 700;
     font-size: 35px;
+    margin-top: 50px;
+    
 }
 .section-description{
     font-weight: 400;
@@ -148,6 +150,55 @@ main{
 }
 /* Resume styles */
  
-
-
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+    font-size: 16px;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+/* Contract styles */
+.contract{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    
+}
+.contract .section-title{
+    text-align: left;
+}
+.contract input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contract a{
+    text-decoration: none;
+}
 
